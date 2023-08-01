@@ -1,0 +1,14 @@
+@media (min-width: 1024px) {
+  .about .page-split-section:nth-child(odd) .hover-image {
+    top: 50px;
+    left: var(--gutter);
+  }
+  .about .page-split-section:nth-child(2n) {
+    background-color: var(--charcoal);
+    color: var(--purples);
+  }
+  .about .page-split-section:nth-child(2n) .hover-image {
+    bottom: 63px;
+    right: var(--gutter);
+  }
+}

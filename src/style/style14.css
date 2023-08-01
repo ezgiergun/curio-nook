@@ -1,0 +1,40 @@
+@media (min-width: 768px) {
+  .mini-accordion {
+    max-width: 340px;
+  }
+}
+.mini-accordion__item {
+  border-bottom: 1px dotted var(--charcoal);
+  padding: 10px 0;
+}
+.mini-accordion__item:first-child {
+  border-top: 1px dotted var(--charcoal);
+}
+.mini-accordion__header {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+.mini-accordion__header h3 {
+  margin: 0;
+}
+.active .mini-accordion__header {
+  font-style: italic;
+}
+.mini-accordion__button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  line-height: 0;
+  position: relative;
+}
+
+.mini-accordion__content {
+  white-space: pre-line;
+}
+.mini-accordion__content p {
+  margin-bottom: 0;
+}

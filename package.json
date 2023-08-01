@@ -1,0 +1,17 @@
+{
+  "name": "curionook",
+  "version": "1.0.0",
+  "description": "A website for a furniture shop called CurioNook",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Ezgi Ergün",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.9.3",
+    "@parcel/transformer-webmanifest": "^2.9.3",
+    "parcel": "^2.9.3"
+  }
+}

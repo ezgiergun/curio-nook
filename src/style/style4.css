@@ -1,0 +1,31 @@
+.page-hero[data-about-hero] {
+  text-align: center;
+  overflow: hidden;
+}
+@media (min-width: 1024px) {
+  .page-hero[data-about-hero] {
+    min-height: calc(100vh - 115px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.page-hero h1[data-about-hero] {
+  margin: 0;
+  font-size: 35px;
+}
+
+@media (min-width: 1024px) {
+  .page-hero h1[data-about-hero] {
+    font-size: 45px;
+  }
+}
+
+.page-hero > div[data-about-hero] {
+  margin: 3em 0;
+}
+@media (max-width: 1023px) {
+  .margex {
+    display: none;
+  }
+}

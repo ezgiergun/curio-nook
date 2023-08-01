@@ -1,0 +1,40 @@
+.select-variant label {
+  cursor: pointer;
+  display: block;
+  width: 204px;
+  position: relative;
+}
+.select-variant .selector {
+  align-items: center;
+  border: 1px dotted transparent;
+  display: flex;
+  font-size: 14px;
+  margin-top: 4px;
+  padding: 2px 4px;
+  text-transform: uppercase;
+  border-radius: 30px;
+}
+.select-variant .selector:hover {
+  font-style: italic;
+}
+.select-variant input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.select-variant input:checked + .selector {
+  border-color: var(--charcoal);
+  font-style: italic;
+}
+.select-variant__variant-dot {
+  border: 1px solid var(--charcoal);
+  border-radius: 10px;
+  display: inline-block;
+  height: 18px;
+  margin-right: 8px;
+  width: 18px;
+}

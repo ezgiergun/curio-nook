@@ -1,0 +1,33 @@
+.faq-page[data-v-9985c31a] {
+  min-height: calc(100vh - 201px);
+  padding: 65px var(--gutter);
+}
+@media (min-width: 1024px) {
+  .faq-page[data-v-9985c31a] {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 1023px) {
+  .faq-page-nav[data-v-9985c31a] {
+    display: none;
+  }
+}
+.faq-page-nav-container[data-v-9985c31a] {
+  position: sticky;
+  top: 158px;
+}
+.faq-page .faq[data-v-9985c31a] {
+  padding: 0;
+}
+@media (min-width: 1024px) {
+  .faq-page .faq[data-v-9985c31a] {
+    padding: 0 15px var(--gutter);
+  }
+}
+.faq-page .faq .body[data-v-9985c31a] {
+  white-space: pre-line;
+}
+.faq-page .faq p[data-v-9985c31a] {
+  min-height: 1em;
+}

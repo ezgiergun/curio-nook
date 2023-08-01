@@ -1,0 +1,8 @@
+.shop-page[data-index-page] {
+  background-color: var(--purples);
+  min-height: 100vh;
+  position: fixed;
+  top: 0; /* Old style: var(--header-height) */
+  width: 100%;
+  z-index: -2;
+}

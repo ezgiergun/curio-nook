@@ -1,0 +1,70 @@
+.product-image-carousel__images {
+  background-color: var(--white);
+  padding-bottom: 68%;
+  position: relative;
+}
+.product-image-carousel__image {
+  opacity: 0;
+  transition: opacity var(--slow);
+}
+.product-image-carousel__image.active {
+  opacity: 1;
+}
+.product-image-carousel__image img {
+  display: block;
+  height: auto;
+  left: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+  position: absolute;
+  right: 0;
+  top: 0;
+  max-width: 90%;
+  border-radius: 100px;
+}
+@media (max-width: 768px) {
+  .product-image-carousel__image img {
+    display: block;
+    height: auto;
+    left: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: absolute;
+    max-width: 75%;
+    max-height: 72%;
+    border-radius: 60px;
+    left: 20px;
+  }
+}
+
+.product-image-carousel__next,
+.product-image-carousel__prev {
+  top: 0;
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  z-index: 10;
+  font-size: 0;
+}
+.product-image-carousel__prev {
+  left: 0;
+  cursor: url(logo.png) 41 6, w-resize;
+}
+.product-image-carousel__next {
+  right: 0;
+  cursor: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDkiIGhlaWdodD0iMTEiIHZpZXdCb3g9IjAgMCA0OSAxMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTguNjM1NTEgOS4zOEg4LjU3NTUxTDkuMDI1NTEgMC40OTk5OTlINy4zMzA1MUwwLjUyMDUwNyAxMUgxLjkwMDUxTDcuNjYwNTEgMi4xMkg3LjcyMDUxTDcuMjcwNTEgMTFIOC45NjU1MUwxNS43NzU1IDAuNDk5OTk5SDE0LjM5NTVMOC42MzU1MSA5LjM4Wk0yNy4yNDQ0IDAuNDk5OTk5SDE5Ljk4NDRMMTMuMTc0NCAxMUgyMC41ODQ0TDIxLjMzNDQgOS44M0gxNS40OTk0TDE3LjgyNDQgNi4yNDVIMjMuMjI0NEwyMy44MjQ0IDUuMDc1SDE4LjU3NDRMMjAuNzc5NCAxLjY3SDI2LjQ5NDRMMjcuMjQ0NCAwLjQ5OTk5OVpNMzcuNTA1OSAwLjQ5OTk5OUwzMS43NjA5IDQuODY1TDMxLjcwMDkgNC44MzVMMzEuNTk1OSAwLjQ5OTk5OUgzMC4yMzA5TDMwLjQ1NTkgNS4zTDIyLjgwNTkgMTFIMjQuNzQwOUwzMC43MTA5IDYuNDg1TDMwLjc3MDkgNi41TDMwLjg3NTkgMTFIMzIuMjg1OUwzMi4wNDU5IDYuMDA1TDM5LjQ0MDkgMC40OTk5OTlIMzcuNTA1OVpNNDguODg1MSAwLjQ5OTk5OUg0MC4zNTAxTDM5LjU1NTEgMS43SDQzLjE3MDFMMzcuMTQwMSAxMUgzOC43MDAxTDQ0LjczMDEgMS43SDQ4LjEwNTFMNDguODg1MSAwLjQ5OTk5OVoiIGZpbGw9IiMyODI4MkEiLz4KPC9zdmc+Cg==)
+      22 6,
+    e-resize;
+}
+.product-image-carousel__counter {
+  display: flex;
+  font-size: 15px;
+  font-style: italic;
+  justify-content: flex-start;
+  margin-left: 0;
+  position: absolute;
+  left: 125px;
+  top: 340px;
+  bottom: 0px;
+  width: 100%;
+}

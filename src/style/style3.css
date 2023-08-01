@@ -1,0 +1,97 @@
+.collection-page[data-v-6f046db7] {
+  padding: var(--gutter);
+}
+@media (min-width: 1024px) {
+  .collection-page[data-v-6f046db7] {
+    min-height: calc(100vh - 202px);
+    display: grid;
+    grid-gap: 30px;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1024px) {
+  .collection-page-nav
+    .collection-page
+    .collection-page-collection[data-v-6f046db7] {
+    overflow-x: scroll;
+  }
+}
+.collection-page .collection-page-nav[data-v-6f046db7] {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.015em;
+  line-height: 1.1;
+}
+.collection-page .collection-page-nav p[data-v-6f046db7] {
+  margin: 1em 0;
+}
+@media (min-width: 1024px) {
+  .collection-page .collection-page-nav[data-v-6f046db7] {
+    position: sticky;
+  }
+}
+.collection-page .collection-page-collection[data-v-6f046db7] {
+  position: relative;
+}
+.collection-page .collection-page-collection .products[data-v-6f046db7] {
+  padding: 1em 0;
+}
+.collection-page
+  .collection-page-collection
+  .products
+  .product
+  h3[data-v-6f046db7] {
+  margin: 0;
+  padding: 0.5em 0;
+}
+.collection-page
+  .collection-page-collection
+  .products
+  .product
+  .product-hover-image[data-v-6f046db7] {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .collection-page
+    .collection-page-collection
+    .products
+    .product
+    .product-hover-image[data-v-6f046db7] {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 210px;
+    opacity: 0;
+  }
+}
+.collection-page
+  .collection-page-collection
+  .products
+  .product:hover
+  .product-hover-image[data-v-6f046db7] {
+  opacity: 1;
+}
+@media (min-width: 1024px) {
+  .collection-page .collection-page-collection[data-v-6f046db7] {
+    overflow-x: scroll;
+  }
+}
+.collection-page
+  .collection-page-collection
+  .collection-about-title[data-v-6f046db7] {
+  margin-top: 3em;
+}
+.collection-page .collection-page-collection .collection-text[data-v-6f046db7] {
+  max-width: 437px;
+}
+.collection-page a.link-active[data-v-6f046db7],
+.collection-page a[data-v-6f046db7]:hover {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.product-hover-image img {
+  border-radius: 15%;
+}

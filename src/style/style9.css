@@ -1,0 +1,17 @@
+.product-page__loading {
+  height: 100vh;
+}
+.product-page__sections {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 1%;
+}
+.product-page__cart-padding {
+  padding-bottom: calc(var(--gutter) * 2);
+}
+@media (min-width: 1024px) {
+  .product-page__cart-padding {
+    display: none;
+  }
+}

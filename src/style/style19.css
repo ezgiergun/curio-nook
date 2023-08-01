@@ -1,0 +1,75 @@
+.hero {
+  background-color: var(--purples);
+  display: grid;
+  grid-template: "logo logo" 1fr "mottoline byartist" auto/1fr 1fr;
+  font-size: 14px;
+  height: 100vh;
+  left: 0;
+  padding: 20px var(--gutter);
+  position: sticky;
+  text-transform: uppercase;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+@media (max-width: 1023px) {
+  .hero {
+    align-items: center;
+    grid-template: "mottoline" auto "logo" 1fr "byartist" auto/1fr;
+  }
+}
+.hero .homelink {
+  grid-area: logo;
+  width: 100%;
+}
+.hero .logo svg {
+  display: block;
+}
+
+#mysvg {
+  position: fixed;
+  top: 60px;
+  left: 10px;
+  width: 95%;
+  height: 70%;
+  transform-origin: center;
+  transform: scale(1);
+  z-index: -1;
+  font-size: 90px;
+  transition: 0.15s;
+  display: block;
+}
+
+.hero .byartist,
+.hero .mottoline {
+  font-size: 5vw;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+@media (max-width: 1023px) {
+  .hero .byartist,
+  .hero .mottoline {
+    text-align: center;
+  }
+
+  #mysvg {
+    position: static;
+    z-index: 1;
+    display: block;
+    transition: 0.1s;
+    left: 40px;
+  }
+}
+.hero .mottoline {
+  grid-area: mottoline;
+}
+.hero .byartist {
+  font-style: italic;
+  grid-area: byartist;
+  padding-right: 1vw;
+}
+@media (min-width: 1024px) {
+  .hero .byartist {
+    text-align: right;
+  }
+}
