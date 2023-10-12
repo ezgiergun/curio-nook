@@ -4,8 +4,8 @@
   "description": "A website for a furniture shop called CurioNook",
   "default": "index.html",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html --dist-dir ./dist"
   },
   "author": "Ezgi Ergün",
   "license": "ISC",
