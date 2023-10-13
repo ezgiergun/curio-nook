@@ -11,11 +11,11 @@ Technologies Used:
 
     HTML5, CSS3, and JavaScript as the core technologies.
 
-Demo: https://curionook.netlify.app/
+Demo: http://ezgiergun.com/curio-nook-store/
 
 Screenshots:
 ![Index Page](URL) |
 ![Shop Page](URL) |
 ![About Page](URL)
 
-Contact me: ezgiergun.k@gmail.com
+Contact me: ezgiergunk@gmail.com
