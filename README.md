@@ -9,7 +9,7 @@ Key Features:
 
 Technologies Used:
 
-    HTML5, CSS3, and JavaScript as the core technologies.
+    HTML, CSS, and JavaScript as the core technologies.
 
 Demo: http://ezgiergun.com/curio-nook-store/
 
