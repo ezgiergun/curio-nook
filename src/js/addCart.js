@@ -7,7 +7,7 @@
     document.getElementById("__layout").firstElementChild.className;
   const price = document.querySelector(".price-product")?.textContent;
   const image = document
-    .querySelector(".active")
+    .querySelector(".product-image-carousel__image.active")
     .firstElementChild.getAttribute("src");
 
   //Set and Show the same cart count for every cart-button on pages:

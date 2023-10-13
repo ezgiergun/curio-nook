@@ -17,6 +17,7 @@
 .product-navigation__prev {
   align-items: flex-end;
   display: flex;
+  margin-left: auto;
 }
 .product-navigation__link {
   line-height: 0;
@@ -37,8 +38,8 @@
 .product-navigation__text {
   align-items: center;
   display: inline-flex;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.8rem;
+  line-height: 1em;
 }
 .product-navigation__text:focus,
 .product-navigation__text:hover {

@@ -103,17 +103,7 @@
   text-transform: uppercase;
   width: 100%;
 }
-.product-hero__cart-button button.add-to-cart:disabled {
-  cursor: not-allowed;
-  opacity: 0.5;
-}
-.product-hero__cart-button button.add-to-cart:focus:not(:disabled),
-.product-hero__cart-button button.add-to-cart:hover:not(:disabled) {
-  background-color: var(--charcoal);
-  border-color: var(--purples);
-  color: var(--purples);
-  font-style: italic;
-}
+
 .product-hero__specs-image {
   order: -1;
   position: relative;

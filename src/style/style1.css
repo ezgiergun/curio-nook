@@ -429,10 +429,16 @@ header .byartist {
 .shop-list-item__variant-dot {
   border-radius: 5px;
   display: inline-block;
-  height: 20px;
-  margin-right: 20px;
-  width: 20px;
+  height: 1.5em;
+  margin-right: 1.5em;
+  width: 1.5em;
 }
+@media screen and (max-width: 768px) {
+  .shop-list-item__variant-dot {
+    margin-right: 1em;
+  }
+}
+
 .shop-list-item__variant-image {
   bottom: 0;
   left: 0;

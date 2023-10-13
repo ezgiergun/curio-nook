@@ -18,8 +18,20 @@
 .featured-collection .collection-image {
   position: relative;
   margin-top: 2em;
-  right: 600px;
+  right: 43em;
   height: 45em;
+}
+@media screen and (max-width: 768px) {
+  .featured-collection .collection-image {
+    right: 0;
+    height: 25em;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .featured-collection .collection-image {
+    right: 0;
+    height: 35em;
+  }
 }
 .featured-collection .collection-text,
 .featured-collection .collection-name {
