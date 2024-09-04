@@ -11,11 +11,6 @@ Technologies Used:
 
     HTML, CSS, and JavaScript as the core technologies.
 
-Demo: https://curio-nook.vercel.app
+[Demo](https://curio-nook.vercel.ap)
 
-Screenshots:
-![Index Page](URL) |
-![Shop Page](URL) |
-![About Page](URL)
-
-Contact me: ezgiergunk@gmail.com
+[Contact me](ezgiergunk@gmail.com)
